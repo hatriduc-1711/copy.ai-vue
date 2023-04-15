@@ -1,0 +1,49 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    line-height: 20px;
+    background-color: var(--primary);
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: all 0.1s linear;
+
+    &:hover {
+        background-color: var(--primary-hover);
+    }
+
+    .google {
+        width: 24px;
+        margin-right: 10px;
+    }
+
+    .icon-right {
+        width: 22px;
+        margin-left: 10px;
+    }
+}
+
+// color
+.blue {
+    background-color: var(--blue);
+
+    &:hover {
+        background-color: var(--blue-hover);
+    }
+}
+
+// size
+.large {
+    height: 55px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 30px;
+}
+
+.small {
+    height: 42px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0 15px;
+}

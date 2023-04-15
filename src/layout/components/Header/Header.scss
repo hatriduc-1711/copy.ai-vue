@@ -1,0 +1,32 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: var(--blue);
+
+    .top-bar-text---copy {
+        font-size: 17px;
+        color: #fff;
+    }
+
+    .top-bar-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+        color: #fff;
+        background-color: transparent;
+        padding: 8px 15px;
+        border-radius: 99px;
+        border: 2px solid var(--primary);
+        margin-left: 12px;
+        transition: all 0.1s linear;
+
+        &:hover {
+            background-color: var(--primary);
+        }
+    }
+}

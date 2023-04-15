@@ -1,0 +1,48 @@
+.wrapper {
+    width: 535px;
+
+    .step-wrapper {
+        display: flex;
+        align-items: center;
+
+        .step-number {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 40px;
+            width: 40px;
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--blue);
+            background-color: #f8fcfb;
+            border-radius: 100%;
+            border: 2px solid #def7f0;
+        }
+
+        .step-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--blue);
+            margin-left: 10px;
+        }
+    }
+
+    .content-step {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 25px;
+        color: var(--blue);
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+}
+
+.center {
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+
+    .step-wrapper {
+        justify-content: center;
+    }
+}
